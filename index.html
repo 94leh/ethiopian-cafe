@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>إثيوبيان | قهوة إثيوبية مُحمّصة بعناية</title>
+<meta name="description" content="مقهى إثيوبيان: قهوة إثيوبية مختصة، حبوب محمّصة طازجة، ومنتجات للقهوة المنزلية.">
+<meta name="theme-color" content="#0f0a07">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@500;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bk:#0f0a07;--rs:#25150e;--br:#5a3420;--cu:#d0904f;--sd:#ecdcc4;--mt:#b3a088;--ln:#ffffff1f;--r:6px}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{background:var(--bk);color:var(--sd);font:400 1.05rem/1.9 Tajawal,system-ui,sans-serif}
+h1,h2,h3,.lg{font-family:'Reem Kufi',Tajawal,sans-serif;font-weight:700;line-height:1.3}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--cu);outline-offset:3px}
+.w{max-width:1100px;margin-inline:auto;padding-inline:20px}
+section{padding-block:88px}
+h2{font-size:clamp(1.9rem,4vw,2.7rem);margin-bottom:12px}
+.sub{color:var(--mt);max-width:52ch;margin-bottom:36px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:11px 24px;border-radius:var(--r);border:1px solid var(--cu);background:var(--cu);color:#1a0e07;font-weight:700;transition:.25s}
+.btn:hover{background:transparent;color:var(--cu)}
+.btn.o{background:transparent;color:var(--sd);border-color:var(--ln)}
+.btn.o:hover{border-color:var(--cu);color:var(--cu)}
+nav{position:sticky;top:0;z-index:20;background:#0f0a07e6;backdrop-filter:blur(10px);border-bottom:1px solid var(--ln)}
+nav .w{display:flex;align-items:center;gap:24px;height:68px}
+.logo{font-size:1.5rem;color:var(--cu);margin-inline-end:auto}
+.links{display:flex;gap:26px}
+.links a{color:var(--mt);transition:.2s}.links a:hover{color:var(--sd)}
+.ic{background:none;border:1px solid var(--ln);border-radius:var(--r);padding:6px 14px;position:relative}
+.ic b{background:var(--cu);color:#1a0e07;border-radius:99px;padding:0 8px;font-size:.85rem;margin-inline-start:6px}
+#mb{display:none}
+.hero{padding-block:72px 96px;background:radial-gradient(60% 70% at 25% 40%,#5a342044,transparent)}
+.hero .w{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center}
+.hero h1{font-size:clamp(2.6rem,7vw,5rem);margin-bottom:20px}
+.hero h1 span{display:block;color:var(--cu)}
+.hero p{color:var(--mt);font-size:1.15rem;max-width:44ch;margin-bottom:30px}
+.row{display:flex;gap:12px;flex-wrap:wrap}
+.cup{width:100%;max-width:380px;justify-self:center}
+.steam path{fill:none;stroke:var(--sd);stroke-width:5;stroke-linecap:round;opacity:0;animation:st 4s ease-in infinite}
+.steam path:nth-child(2){animation-delay:1.2s}.steam path:nth-child(3){animation-delay:2.4s}
+@keyframes st{0%{opacity:0;transform:translateY(24px)}30%{opacity:.5}100%{opacity:0;transform:translateY(-34px)}}
+.strip{background:var(--br);color:var(--sd);padding-block:14px;overflow:hidden;white-space:nowrap}
+.strip div{display:inline-block;animation:mq 30s linear infinite;font-family:'Reem Kufi';font-size:1.15rem}
+@keyframes mq{to{transform:translateX(50%)}}
+#origin{background:var(--rs)}
+.tabs{display:flex;gap:8px;margin-bottom:28px;flex-wrap:wrap}
+.tabs button,.chips button{background:none;border:1px solid var(--ln);border-radius:99px;padding:6px 20px;transition:.2s}
+.tabs button[aria-pressed=true],.chips button[aria-pressed=true]{background:var(--cu);border-color:var(--cu);color:#1a0e07;font-weight:700}
+.og{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.og .big{font-size:clamp(4rem,12vw,8rem);color:var(--br);-webkit-text-stroke:1px var(--cu);color:transparent;line-height:1.1}
+.og dl{display:grid;grid-template-columns:auto 1fr;gap:6px 20px;margin-top:20px;border-top:1px solid var(--ln);padding-top:18px}
+.og dt{color:var(--cu)}
+.chips{display:flex;gap:8px;margin-bottom:28px;flex-wrap:wrap}
+#ml{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:6px 56px}
+#ml li{display:flex;align-items:baseline;gap:10px;padding-block:12px}
+#ml div{max-width:72%}
+#ml b{font-size:1.1rem}#ml p{color:var(--mt);font-size:.92rem;line-height:1.6}
+#ml i{flex:1;border-bottom:2px dotted var(--ln);transform:translateY(-5px)}
+#ml span{color:var(--cu);font-weight:700;white-space:nowrap}
+#shop{background:var(--rs)}
+.g{display:grid;grid-template-columns:repeat(auto-fill,minmax(235px,1fr));gap:20px}
+.it{border:1px solid var(--ln);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;transition:.25s}
+.it:hover{border-color:var(--cu);transform:translateY(-4px)}
+.ph{height:170px;display:grid;place-items:center;font-size:4.2rem}
+.it div.t{padding:16px;display:flex;flex-direction:column;gap:4px;flex:1}
+.it small{color:var(--mt)}
+.it .f{margin-top:auto;display:flex;justify-content:space-between;align-items:center;padding-top:12px}
+.it .f span{color:var(--cu);font-weight:700;font-size:1.1rem}
+.it .f button{border:1px solid var(--cu);background:none;border-radius:var(--r);padding:3px 16px;color:var(--cu);transition:.2s}
+.it .f button:hover{background:var(--cu);color:#1a0e07}
+.q{display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+.q p{font-size:1.15rem}.q small{color:var(--cu);display:block;margin-top:8px}
+.q>div{border-inline-start:3px solid var(--br);padding-inline-start:20px}
+#contact{background:var(--rs)}
+.ct{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+.hrs{list-style:none;padding:0;margin:16px 0 28px}
+.hrs li{display:flex;justify-content:space-between;border-bottom:1px solid var(--ln);padding-block:8px}
+.hrs li:first-child{color:var(--cu)}
+.fm{display:grid;gap:14px}
+.fm input,.fm textarea{width:100%;background:var(--bk);border:1px solid var(--ln);border-radius:var(--r);padding:12px 14px;color:var(--sd);font:inherit}
+.fm input:focus,.fm textarea:focus{outline:none;border-color:var(--cu)}
+footer{padding-block:28px;color:var(--mt);border-top:1px solid var(--ln);text-align:center;font-size:.92rem}
+#dr{position:fixed;inset-block:0;inset-inline-end:0;width:min(400px,100%);background:var(--rs);border-inline-start:1px solid var(--ln);z-index:40;transform:translateX(-105%);transition:transform .35s ease;display:flex;flex-direction:column;padding:24px}
+#dr.open{transform:none}
+#dr h3{font-size:1.4rem;margin-bottom:16px;display:flex;justify-content:space-between}
+#ci{flex:1;overflow:auto}
+.cr{display:flex;align-items:center;gap:12px;padding-block:12px;border-bottom:1px solid var(--ln)}
+.cr span:first-child{font-size:1.8rem}
+.cr div{flex:1;line-height:1.4}
+.cr button{width:28px;height:28px;border-radius:50%;border:1px solid var(--ln);background:none}
+.tot{display:flex;justify-content:space-between;font-size:1.2rem;padding-block:16px}
+#toast{position:fixed;bottom:24px;left:50%;translate:-50% 90px;background:var(--cu);color:#1a0e07;padding:10px 24px;border-radius:99px;font-weight:700;z-index:50;transition:.35s}
+#toast.on{translate:-50% 0}
+@media(max-width:800px){
+section{padding-block:60px}
+.hero .w,.og,.ct,#ml{grid-template-columns:1fr}
+.q{grid-template-columns:1fr;gap:24px}
+.cup{max-width:240px;order:-1}
+.links{display:none;position:absolute;top:68px;inset-inline:0;background:var(--bk);flex-direction:column;padding:20px;border-bottom:1px solid var(--ln)}
+.links.on{display:flex}
+#mb{display:block}
+#ml div{max-width:68%}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<nav><div class="w">
+<a href="#top" class="logo lg">إثيوبيان</a>
+<div class="links" id="lk"><a href="#origin">أصل البن</a><a href="#menu">القائمة</a><a href="#shop">المتجر</a><a href="#about">آراء الضيوف</a><a href="#contact">تواصل معنا</a></div>
+<button class="ic" id="cb" aria-label="سلة المشتريات">السلة<b id="cn">0</b></button>
+<button class="ic" id="mb" aria-label="القائمة">☰</button>
+</div></nav>
+
+<header class="hero" id="top"><div class="w">
+<div>
+<h1>من مرتفعات إثيوبيا<span>إلى فنجانك</span></h1>
+<p>نحمّص حبوبنا الإثيوبية الفاخرة كل صباح، ونحضّرها على مهل كما تُحضَّر في مراسم البن الأصيلة. ونكهات الفواكه والزهور تبدأ من أول رشفة.</p>
+<div class="row"><a class="btn" href="#menu">استعرض القائمة</a><a class="btn o" href="#shop">تسوّق الحبوب</a></div>
+</div>
+<svg class="cup" viewBox="0 0 300 300" role="img" aria-label="فنجان قهوة يتصاعد منه البخار">
+<g class="steam"><path d="M110 120c-14-20 14-30 0-50"/><path d="M150 120c-14-20 14-30 0-56"/><path d="M190 120c-14-20 14-30 0-50"/></g>
+<ellipse cx="150" cy="252" rx="118" ry="22" fill="#2a1810"/><ellipse cx="150" cy="246" rx="100" ry="16" fill="#5a3420"/>
+<path d="M72 140h156c0 70-30 104-78 104s-78-34-78-104z" fill="#d0904f"/>
+<path d="M228 160c46-6 46 56-8 62" fill="none" stroke="#d0904f" stroke-width="14" stroke-linecap="round"/>
+<ellipse cx="150" cy="140" rx="78" ry="14" fill="#1a0d07"/><ellipse cx="150" cy="141" rx="64" ry="9" fill="#6b3a1f"/>
+<path d="M100 200c30 12 70 12 100 0" fill="none" stroke="#1a0e07" stroke-opacity=".25" stroke-width="6" stroke-linecap="round"/>
+</svg>
+</div></header>
+<div class="strip" aria-hidden="true"><div id="mq"></div></div>
+
+<section id="origin"><div class="w">
+<h2>ثلاث مناطق، ثلاث حكايات</h2>
+<p class="sub">نختار حبوبنا من مزارع صغيرة في أشهر مناطق البن الإثيوبي. اختر منطقة لتعرف نكهتها.</p>
+<div class="tabs" id="tb"></div>
+<div class="og"><div class="big lg" id="ob"></div><div><h3 id="oh" style="font-size:1.6rem"></h3><p id="op" style="color:var(--mt)"></p><dl id="od"></dl></div></div>
+</div></section>
+
+<section id="menu"><div class="w">
+<h2>قائمة المقهى</h2>
+<p class="sub">مشروبات تُحضَّر عند الطلب، وحلويات طازجة من مخبزنا.</p>
+<div class="chips" id="ch"></div>
+<ul id="ml"></ul>
+</div></section>
+
+<section id="shop"><div class="w">
+<h2>متجر إثيوبيان</h2>
+<p class="sub">خذ القهوة إلى بيتك: حبوب محمّصة طازجة وأدوات التحضير التي نستخدمها في المقهى.</p>
+<div class="g" id="gd"></div>
+</div></section>
+
+<section id="about"><div class="w">
+<h2>ماذا يقول ضيوفنا</h2>
+<p class="sub" style="margin-bottom:44px">آراء تجريبية لعرض شكل القسم.</p>
+<div class="q">
+<div><p>أفضل قهوة إثيوبية جربتها في المدينة، ورائحة التحميص تُشعرك أنك في قرية على الجبل.</p><small>عبدالله القحطاني</small></div>
+<div><p>الجلسة هادئة والموظفون يشرحون لك كل نوع من الحبوب. اشتريت حبوب سيداما ولم أندم.</p><small>سارة العتيبي</small></div>
+<div><p>قهوة بونا بالبخور تجربة تستحق الزيارة، وأنصح بها كل من يريد شيئًا مختلفًا.</p><small>فهد الحربي</small></div>
+</div>
+</div></section>
+
+<section id="contact"><div class="w ct">
+<div>
+<h2>زورونا أو تواصلوا معنا</h2>
+<ul class="hrs"><li><span>ساعات العمل</span><span></span></li><li><span>السبت إلى الخميس</span><span>٧:٠٠ ص – ١٢:٠٠ م</span></li><li><span>الجمعة</span><span>٢:٠٠ م – ١٢:٠٠ م</span></li></ul>
+<div class="row">
+<a class="btn" href="https://wa.me/966500000000" target="_blank" rel="noopener">واتساب</a>
+<a class="btn o" href="tel:+966500000000">اتصال</a>
+<a class="btn o" href="https://maps.google.com" target="_blank" rel="noopener">الموقع على الخريطة</a>
+<a class="btn o" href="https://instagram.com" target="_blank" rel="noopener">إنستغرام</a>
+</div>
+</div>
+<div class="fm" id="fm">
+<h3 style="font-size:1.4rem">أرسل لنا رسالة</h3>
+<input id="fn" placeholder="الاسم" aria-label="الاسم">
+<input id="fp" type="tel" placeholder="رقم الجوال" aria-label="رقم الجوال">
+<textarea rows="4" placeholder="رسالتك أو طلب الحجز" aria-label="الرسالة"></textarea>
+<button class="btn" id="sb" type="button">إرسال الرسالة</button>
+</div>
+</div></section>
+<footer>© ٢٠٢٦ مقهى إثيوبيان. جميع الحقوق محفوظة. (موقع تجريبي)</footer>
+
+<aside id="dr" aria-label="سلة المشتريات">
+<h3>سلتك <button class="ic" id="cx" aria-label="إغلاق">✕</button></h3>
+<div id="ci"></div>
+<div class="tot"><span>الإجمالي</span><b id="tt">0 ر.س</b></div>
+<button class="btn" id="ck">إتمام الطلب</button>
+</aside>
+<div id="toast" role="status"></div>
+
+<script>
+const $=s=>document.querySelector(s),P=n=>n.toLocaleString('en')+' ر.س';
+const toast=m=>{const t=$('#toast');t.textContent=m;t.classList.add('on');clearTimeout(t.h);t.h=setTimeout(()=>t.classList.remove('on'),2200)};
+$('#mq').innerHTML=Array(12).fill('قهوة إثيوبية &nbsp;✦&nbsp; تحميص طازج &nbsp;✦&nbsp; بن مختص &nbsp;✦&nbsp;').join('');
+$('#mb').onclick=()=>$('#lk').classList.toggle('on');
+document.querySelectorAll('.links a').forEach(a=>a.onclick=()=>$('#lk').classList.remove('on'));
+
+const OR={
+'يرغاتشيف':['يرغاتشيف','زهور الياسمين، الليمون، وشاي الأرل غراي بجسم خفيف','ما يزيد على ١٠٠٠ م','غسيل','الأفتح تحميصًا'],
+'سيداما':['سيداما','التوت الأزرق، الكراميل، وحموضة متوازنة','١٥٠٠ إلى ٢٢٠٠ م','معالجة طبيعية','تحميص متوسط'],
+'هرر':['هرر','الفراولة والشوكولاتة الداكنة ونكهة غنية','١٤٠٠ إلى ٢١٠٠ م','مجففة طبيعيًا','الأقوى حضورًا']};
+const L=['المرتفع','المعالجة','التحميص'];
+Object.keys(OR).forEach((k,i)=>{const b=document.createElement('button');b.textContent=k;b.onclick=()=>so(k);$('#tb').append(b)});
+function so(k){const o=OR[k];document.querySelectorAll('#tb button').forEach(b=>b.setAttribute('aria-pressed',b.textContent==k));
+$('#ob').textContent=o[0];$('#oh').textContent='بن '+o[0];$('#op').textContent='نكهات: '+o[1];
+$('#od').innerHTML=[o[2],o[3],o[4]].map((v,i)=>`<dt>${L[i]}</dt><dd>${v}</dd>`).join('')}
+so('يرغاتشيف');
+
+const M=[['h','قهوة بونا الإثيوبية','تُحمّص وتُقدَّم في الجبنة مع البخور',28],['h','في ٦٠ بور أوفر','مقطّرة يدويًا من حبوب اليوم',22],['h','إسبريسو مزدوج','مركّز وغني بالكريما',14],['h','كابتشينو','حليب مخملي وفن لاتيه',19],['h','لاتيه الهيل','قهوة ناعمة بنكهة الهيل',21],
+['c','آيس يرغاتشيف','مبرّد بنكهات الزهور والحمضيات',23],['c','كولد برو','منقوع ١٢ ساعة',20],['c','سبانش لاتيه مثلج','حليب مكثف وإسبريسو',24],
+['s','ديفو بالعسل','خبز إثيوبي حلو بعسل الجبال',16],['s','كيكة التمر','تمر سكري مع صلصة القهوة',18],['s','كوكيز الشوكولاتة','دافئ من الفرن',12]];
+const C=[['all','الكل'],['h','ساخنة'],['c','باردة'],['s','حلويات']];
+C.forEach(c=>{const b=document.createElement('button');b.textContent=c[1];b.onclick=()=>dm(c[0]);b.dataset.c=c[0];$('#ch').append(b)});
+function dm(c){document.querySelectorAll('#ch button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.c==c));
+$('#ml').innerHTML=M.filter(m=>c=='all'||m[0]==c).map(m=>`<li><div><b>${m[1]}</b><p>${m[2]}</p></div><i></i><span>${m[3]} ر.س</span></li>`).join('')}
+dm('all');
+
+const S=[['b1','🫘','حبوب يرغاتشيف ٢٥٠ جم','تحميص فاتح',68,'#5a3420'],['b2','🫘','حبوب سيداما ٢٥٠ جم','تحميص متوسط',62,'#44261a'],['b3','🫘','حبوب هرر ٢٥٠ جم','تحميص غامق',65,'#2e1a12'],
+['j','🏺','جبنة فخارية أصلية','لمراسم القهوة',120,'#6e4128'],['k','☕','طقم فناجين سيراميك','٦ فناجين مع أطباق',85,'#3b2216'],['v','⚗️','طقم V60 للتقطير','قمع وفلاتر وكوب قياس',145,'#4b2d1c'],
+['t','👜','حقيبة قماشية','شعار إثيوبيان',45,'#2a1810'],['g','🎁','صندوق هدية','حبوب وفنجانان',190,'#5a3420']];
+$('#gd').innerHTML=S.map(s=>`<article class="it"><div class="ph" style="background:${s[5]}">${s[1]}</div><div class="t"><h3 style="font-size:1.1rem">${s[2]}</h3><small>${s[3]}</small><div class="f"><span>${P(s[4])}</span><button data-id="${s[0]}">أضف</button></div></div></article>`).join('');
+const cart={};
+const cc=()=>Object.values(cart).reduce((a,b)=>a+b,0);
+function rc(){const ids=Object.keys(cart).filter(k=>cart[k]);$('#cn').textContent=cc();
+$('#ci').innerHTML=ids.length?ids.map(id=>{const s=S.find(x=>x[0]==id);return `<div class="cr"><span>${s[1]}</span><div>${s[2]}<br><small style="color:var(--cu)">${P(s[4])}</small></div><button data-d="-1" data-id="${id}">−</button><span>${cart[id]}</span><button data-d="1" data-id="${id}">+</button></div>`}).join(''):'<p style="color:var(--mt);padding-top:12px">السلة فارغة. أضف منتجًا من المتجر.</p>';
+$('#tt').textContent=P(ids.reduce((a,id)=>a+cart[id]*S.find(x=>x[0]==id)[4],0))}
+$('#gd').onclick=e=>{const id=e.target.dataset.id;if(!id)return;cart[id]=(cart[id]||0)+1;rc();toast('تمت الإضافة إلى السلة')};
+$('#ci').onclick=e=>{const id=e.target.dataset.id;if(!id)return;cart[id]=Math.max(0,cart[id]+ +e.target.dataset.d);rc()};
+const dr=o=>$('#dr').classList.toggle('open',o);
+$('#cb').onclick=()=>dr(true);$('#cx').onclick=()=>dr(false);
+document.onkeydown=e=>e.key=='Escape'&&dr(false);
+$('#ck').onclick=()=>{if(!cc())return toast('السلة فارغة');toast('هذا عرض تجريبي: لا يوجد دفع فعلي');};
+$('#sb').onclick=()=>{toast('شكرًا لك! سنتواصل معك قريبًا (عرض تجريبي)');$('#fn').value=$('#fp').value=''};
+rc();
+</script>
+</body>
+</html>
